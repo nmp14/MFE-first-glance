@@ -14,7 +14,7 @@ module.exports = {
       name: 'mfe1',
       filename:'remoteEntry.js',
       exposes: {
-        './mfe1Index': './src/index',
+        '.': './src/index',
       },
     }),
     new HtmlWebpackPlugin({
