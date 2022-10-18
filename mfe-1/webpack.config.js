@@ -16,6 +16,7 @@ module.exports = {
       exposes: {
         '.': './src/index',
       },
+      shared: { react: { singleton: true }, "react-dom": { singleton: true } },
     }),
     new HtmlWebpackPlugin({
       template: './public/index.html'
