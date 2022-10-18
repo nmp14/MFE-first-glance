@@ -1,3 +1,3 @@
-import 'mfe1/mfe1Index';
+import 'mfe1';
 
 console.log('Container!');
